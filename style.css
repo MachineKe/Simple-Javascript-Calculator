@@ -1,0 +1,54 @@
+/* $white:#EEEEFE;
+&purple:#120931;
+&grey:#EEEEEF; */
+
+body {
+  background: #eeeeef;
+}
+
+.box {
+  margin: auto;
+  margin-top: 50px;
+  background: #120931;
+  width: 350px;
+  height: 500px;
+  padding: 3%;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.panel {
+  pointer-events: none;
+}
+
+.screen {
+  width: 80%;
+  height: 2.3rem;
+  font-size: 1.7rem;
+  text-align: right;
+  background: #eeeefe;
+  margin: 5%;
+  padding: 2%;
+  border: 2px solid #120931;
+  overflow-x: auto;
+}
+
+button {
+  font-size: 1.5rem;
+  margin: 2%;
+  border-radius: 5px;
+  width: 15%;
+  cursor: pointer;
+  pointer-events: auto;
+  margin: 15px;
+  padding: 10px;
+}
+
+button:hover {
+  opacity: 0.9;
+  color: red;
+}
+
+#equal {
+  width: 79%;
+}
